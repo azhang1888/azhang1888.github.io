@@ -90,3 +90,6 @@
         align-items: flex-start;
         
 }
+.nav--button--reading:hover{
+    text-decoration: underline;
+}
