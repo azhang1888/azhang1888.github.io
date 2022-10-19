@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/*home page*/
+
+#header {
+    width: 1500px;
+    height: auto;
+    margin-left: 30px; 
+    margin-bottom: 50px;
+}
+
+/*
+#hungry {
+    width: 1500px;
+    margin-left: 120px; 
+    margin-bottom: 50px;
+}
+*/
+
+.always {
+    letter-spacing: 1px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.good {
+    letter-spacing: 1px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#alwayscon {
+    letter-spacing: 1px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#goodcon {
+    letter-spacing: 1px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*
+#goodcon, #alwayscon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+*/
+
+/*menu*/
+
+.heading {
+    letter-spacing: 1px;
+    color:  #13211c;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    /*
+    margin-left: 650px;
+    margin-top: 20px;*/
+}
+
+#menu {
+    width: 1300px;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+#chicken {
+    letter-spacing: 1px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.chickencon {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#beef {
+    text-align: center;
+    letter-spacing: 1px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.beefcon {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#seafood {
+    text-align: center;
+    letter-spacing: 1px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.seafoodcon {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#veggie {
+    text-align: center;
+    letter-spacing: 1px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.veggiecon{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#calzone {
+    text-align: center;
+    letter-spacing: 1px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.calzonecon {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#pizza {
+    text-align: center;
+    letter-spacing: 1px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.pizzacon {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#salad {
+    text-align: center;
+    letter-spacing: 1px;
+    width: 1500px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.saladcon {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*credits*/
+
+#credit {
+    letter-spacing: 1px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*all pages*/
+
+.nav {
+    background-color: white;
+    width: 1350px;
+    height: 80px;
+    position:fixed;
+    left:0px;
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#navitem {
+    color: #13211c;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+#navitem:link {
+    text-decoration: none;
+}
+
+#navitem:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    height: 100px;
+    position:fixed;
+    left: 20px;
+    top:0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    background-color: #13211c;
+    width: 1500;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#contact{
+    color:white;
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactinfo {
+    color:white; 
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
