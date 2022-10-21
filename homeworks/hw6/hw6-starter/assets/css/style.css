@@ -62,15 +62,15 @@ to {transform: scale(2);}
 }
 
 /* TODO: PART 2 - Add delays and dot colors */
-.second.dot {
-	color: #4DB1F7;
+.loader.two .second.dot {
+	background: #4DB1F7;
 	animation-name: wave;
 	animation-iteration-count: infinite;
 	animation-delay: 0.25s;
 }
 
-.third.dot {
-	color: #7DE76A;
+.loader.two .third.dot {
+	background: #7DE76A;
 	animation-name: wave; 
 	animation-iteration-count: infinite;
 	animation-delay: 0.5s;
