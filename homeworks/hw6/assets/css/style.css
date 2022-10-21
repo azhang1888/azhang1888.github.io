@@ -84,10 +84,13 @@ to {transform: scale(2);}
 }
 */
 /* Loader three: Flip */
+
 /* TODO: PART 3 - Style the flip card */
-.loader.three {
+.loader.three .flip-tile {
+	position:relative;
 	height: 100px;
 	width: 100px;
+	background-color: #F98527; 
 }
 
 /* TODO: PART 3 - Add flip animation to flip card */
@@ -95,7 +98,7 @@ to {transform: scale(2);}
 .loader.three .flip-tile {
 	height: 100px;
 	width: 100px;
-	color: #F98527; 
+	background-color: #F98527; 
 	animation-name: flip;
 	animation-duration: 2.6s;
 	animation-iteration-count: infinite;
@@ -104,9 +107,9 @@ to {transform: scale(2);}
 /* TODO: PART 3 - Write flip animation */
 
 @keyframes flip {
-	0% {transform: perspective(300px)}
-	50% {transform: perspective(300px) rotateY(180deg)}
-	100% {transform: perspective(300px) rotateY(180deg) rotateX(180deg)}
+	0% {transform: perspective(300px);}
+	50% {transform: perspective(300px) rotateY(180deg);}
+	100% {transform: perspective(300px) rotateY(180deg) rotateX(180deg);}
 	}
 
 /* Loader four: Spin */
@@ -167,5 +170,7 @@ to {transform: scale(2);}
 /* TODO: PART 4 - Add spin color shifts for other rings */
 
 /* TODO: PART 4 - Create spin animation */
+
+@keyframes
 
 /* TODO: PART 4 - Create spin color animation */
