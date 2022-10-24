@@ -11,6 +11,7 @@
     animation-name: bounce; 
     animation-duration: 0.45s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     transition-timing-function: cubic-bezier (0.42, 0, 0.7, 0.5);
 }
 
@@ -23,6 +24,7 @@
     animation-name: shadow; 
     animation-duration: 0.45s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     transition-timing-function: cubic-bezier (0.42, 0, 0.7, 0.5);
 }
 
