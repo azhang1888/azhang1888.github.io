@@ -1,22 +1,26 @@
 function getRandomNum {
-
+    Math.max(Infinity)
+    Math.random()
 }
 
 console.log (getRandomNum)
 
-let a = 5
-let b = 2
-let c = 1  
-
 function averageThreeNumbers(a, b, c) { 
-    let sum = a+b+c;
-    let "avg"= sum; 
+    let sum = x+y+x;
+    let avg= sum; 
     return avg/3;
 }
+let x = getRandomNum(20);
+let y = getRandomNum(10);
+let z = getRandomNum(13);
+
 console.log (averageThreeNumbers);
 
-function createSentence (9, apples) {
-    On average, a Berkeley student has [num] [noun]s;
+let num = 9; 
+let noun = "apples";
 
+function createSentence (num=9, noun="apples") {
+    let sentence = "On average, a Berkeley student has" + num + noun;
+    return sentence 
 }
 console.log (createSentence)
