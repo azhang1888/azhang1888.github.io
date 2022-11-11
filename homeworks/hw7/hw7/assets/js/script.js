@@ -1,26 +1,36 @@
-function getRandomNum {
-    Math.max(Infinity)
-    Math.random()
+function getRandomNum (max) {
+   let x = Math.floor (Math.random()*100);
+   let y = Math.floor (Math.random()*100);
+   let z = Math.floor (Math.random()*100);
+   return x, y, z;
 }
 
-console.log (getRandomNum)
+console.log (getRandomNum);
 
 function averageThreeNumbers(a, b, c) { 
-    let sum = x+y+x;
-    let avg= sum; 
-    return avg/3;
+    let sum = a+b+c;
+    let avg = sum/3; 
+    return avg;
 }
-let x = getRandomNum(20);
-let y = getRandomNum(10);
-let z = getRandomNum(13);
 
 console.log (averageThreeNumbers);
 
-let num = 9; 
-let noun = "apples";
+/*
+let x = getRandomNum(20);
+let y = getRandomNum(10);
+let z = getRandomNum(13);
+*/
 
-function createSentence (num=9, noun="apples") {
+/*function createSentence () {
+    let num = 9;
+    let noun = "apples";
     let sentence = "On average, a Berkeley student has" + num + noun;
-    return sentence 
+    return sentence;
+}*/
+
+function createSentence (12, "squirrel") {
+    let  sentence = "On average, a Berkeley student has" + num + noun; 
+    return sentence
 }
+
 console.log (createSentence)
