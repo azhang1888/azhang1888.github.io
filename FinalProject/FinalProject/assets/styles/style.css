@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+
+/*Navbar*/
+
+.nav {
+    font-family: "Source Serif Pro", serif;
+    background-color: #213243;
+    width: 1350px;
+    height: 75px;
+    position:fixed;
+    left:0px;
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navthing {
+    font-family: "Source Serif Pro", serif;
+    color: #D2CABD;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 90px;
+}
+
+#logo {
+    height: 100px;
+    position:fixed;
+    left: 20px;
+    top:0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navthing:link {
+    text-decoration: none;
+}
+
+#navthing:hover {
+    text-decoration: underline;
+}
+
+/*About*/
+
+/*.head {
+    font-family: "Source Serif Pro", serif;
+    font-size: 30px;
+    color: #213243;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}*/
+
+#text {
+    font-family: "Open Sans", sans-serif;
+    background-color: #D2CABD;
+    color: #213243;
+}
+
+.gachet {
+    display: inline-block;
+    float: left;
+}
+
+/*..darkbutt, #toggleDark {
+    font-family: "Open Sans", sans-serif;
+    background-color: #213243;
+    color: #D2CABD;
+}*/
+
+.body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #D2CABD;
+    color: #213243;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 250px;
+    margin-right: 50px;
+}
+
+body {
+    background-color: #D2CABD;
+    color: #213243;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Self-Care Tips*/
+
+#header1 {
+    font-family: "Source Serif Pro", serif;
+    color: #213243;
+    font-size: 35px;
+    display: flex;
+    margin-top: 150px;
+    margin left: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bodyp1, #bodyp2 {
+    list-style: none;
+}
+
+#heading {
+    font-family: "Source Serif Pro", serif;
+    color: #213243;
+    font-size: 25px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    font-family: "Open Sans", sans-serif;
+    color: #213243;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle-more {
+    font-family: "Open Sans", sans-serif;
+    background-color: #213243;
+    color: #D2CABD;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.hidden {
+	display: none;
+}
+
+/*Dark Mode
+
+.darkmode {
+    background-color: #121212;
+    color: #D2CABD;
+}*/
