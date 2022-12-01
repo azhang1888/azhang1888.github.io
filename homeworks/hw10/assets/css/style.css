@@ -66,6 +66,14 @@ body {
 	position: absolute;
 }
 
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
 #o1 {
 	left: 95px;
 	top: 190px;

@@ -7,25 +7,26 @@
  *
  * @param {string} lightboxID The id of the lightbox pop-up to show
  */
+
 function unhideLightbox(lightboxID) {
-	// This removes the .hidden class from the #lightbox-overlay div
 	document.getElementById('lightbox-overlay').classList.remove('hidden');
-
-	// TODO: Remove the .hidden class from the div with the given id
-
+	document.getElementById('doggo1').classList.remove('hidden');
 }
-
 
 //
 // Part 2: Make the unhideLightbox function run when a picture is clicked on.
 // 
 
+let p1 = document.getElementById('picture-1')
+
+p1.onclick = unhideLightbox;
+
 /**
  * Calls unhideLightbox with the id of the first lightbox
  */
 function unhideLightbox1() {
-	// TODO: Look in q2.html to see what the id for the lightbox div for the first picture, and call unhideLightbox
-
+	document.getElementById('lightbox-overlay').classList.remove('hidden');
+	document.getElementById('doggo2').classList.remove('hidden');
 }
 
 // TODO: Set the browser to run the function unhideLightbox1 when someone clicks #picture-1
@@ -33,16 +34,21 @@ function unhideLightbox1() {
 
 // TODO: do the same for #picture-2, write a function and then make it run on click
 
+let p2 = document.getElementById('picture-2')
 
-
+p2.onclick = unhideLightbox1;
 
 
 // TODO: do the same for #picture-3, write a function and then make it run on click
 
+function unhideLightbox2() {
+	document.getElementById('lightbox-overlay').classList.remove('hidden');
+	document.getElementById('doggo3').classList.remove('hidden');
+}
 
+let p3 = document.getElementById('picture-3')
 
-
-
+p3.onclick = unhideLightbox2;
 
 // 
 // Part 3: Now we need to be able to close the lightbox when we click outside the picture!
@@ -50,10 +56,39 @@ function unhideLightbox1() {
 function closeLightbox(lightboxID) {
 	// This adds the .hidden class to the #lightbox-overlay div
 	document.getElementById('lightbox-overlay').classList.add('hidden');
-
 	// TODO: Add the .hidden class to the div with the given id
-
+	document.getElementById('doggo1').classList.add('hidden');
 }
+
+let p4 = document.getElementById('doggo1')
+
+p4.onclick = closeLightbox;
+
+// 
+
+function closeLightbox1(lightboxID) {
+	// This adds the .hidden class to the #lightbox-overlay div
+	document.getElementById('lightbox-overlay').classList.add('hidden');
+	// TODO: Add the .hidden class to the div with the given id
+	document.getElementById('doggo2').classList.add('hidden');
+}
+
+let p5 = document.getElementById('doggo2')
+
+p5.onclick = closeLightbox1;
+
+// 
+
+function closeLightbox2(lightboxID) {
+	// This adds the .hidden class to the #lightbox-overlay div
+	document.getElementById('lightbox-overlay').classList.add('hidden');
+	// TODO: Add the .hidden class to the div with the given id
+	document.getElementById('doggo3').classList.add('hidden');
+}
+
+let p6 = document.getElementById('doggo3')
+
+p6.onclick = closeLightbox2;
 
 
 // This function class closeLightbox() for every .lightbox div - feel free to read it, but you do not have to understand it completely!
